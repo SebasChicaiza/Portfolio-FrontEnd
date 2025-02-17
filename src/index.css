@@ -34,6 +34,14 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden; 
+}
+.text-responsive {
+  font-size: 1.5rem;
+}
+
+.img-cropped {
+  clip-path: inset(0px 0px 40px 0px); /* Recorta 40px desde abajo */
 }
 
 h1 {
